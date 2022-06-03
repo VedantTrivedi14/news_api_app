@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import { useWindowDimensions } from "react-native";
 import { TabView, SceneMap } from "react-native-tab-view";
-import { NewsContext } from "../src/API/Context";
-import DiscoverScreen from "../src//Screens/DiscoverScreen";
-import NewsScreen from "../src//Screens/NewsScreen";
+import {NewsContext} from '../API/Context';
+import DiscoverScreen from '../Screens/DiscoverScreen';
+import NewsScreen from '../Screens/NewsScreen';
 import TopNavigation from "./TopNavigation";
 
 export default function InshortTabs() {
